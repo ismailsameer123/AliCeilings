@@ -1,0 +1,45 @@
+.background-image {
+    background-image: url('Images/ModernGypsum.jpg'); /* Replace with your image URL */
+   
+    height: 50vh; /* Half of the viewport height */
+    width: 100%; /* Full width */
+    background-size: cover; /* Cover the entire div */
+    background-position: top; /* Center the image */
+    display: flex; /* Use flexbox to center text */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional shadow for better readability */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Moves the card up by 10px */
+    transition: transform 0.3s ease; /* Smooth animation */
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: contain;
+    background-color: #000; /* Optional: Set background for empty space */
+}
+
+.nav-link:hover {
+    color: #ffc107 !important; /* Golden Yellow on hover */
+    text-decoration: underline;
+}
+
+.navbar-brand:hover {
+    color: #ffc107 !important; /* Golden Yellow on hover */
+    text-shadow: 0 0 5px rgba(255, 199, 7, 0.8);
+}
+/* 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+} */
